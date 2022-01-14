@@ -15,6 +15,8 @@ Pass: admin
 login: joe
 pass: q1w2e3r4T%
 
+## To access the project
+1. access: `locahost:3000`
 ## To add more data
 1. access: `localhost:8000/admin`
 2. username: `admin` pass: `admin`
