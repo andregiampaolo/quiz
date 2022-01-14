@@ -1,0 +1,48 @@
+.horizontal-line-top{
+  margin-top:5%;
+  border-top: 1px solid #000;
+}
+
+#ranking-wrapper{
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+
+.ranking-item-wrapper{
+  min-width: 200px;
+  padding: 2%;
+  border: 1px solid #c5c5c5;
+  margin: 2%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.ranking-title{
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1.5rem;
+}
+
+
+.ranking-item-link{
+  text-decoration: none;
+  color:#4e4e4e;
+  margin-bottom: 20%;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+tr{
+  border-bottom: 1px solid #aaa;
+}
+
+.hightligth{
+  background:#ffda23;
+}

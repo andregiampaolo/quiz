@@ -1,0 +1,30 @@
+.questions-wrapper {
+  border-bottom: 1px solid #f1f1f1;
+}
+.question-wrapper {
+  padding:2%;
+  border-bottom: 1px dotted #c7c7c7;
+}
+
+
+#quiz-result-wrapper{
+  display:flex;
+  flex-direction: row;
+  margin-top: 5%;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.quiz-result-item{
+  flex: 1 1 0px;
+  text-align: center;
+  margin:2%;
+  padding:2%;
+  border-radius: 10px;
+  border:1px dotted #c7c7c7 ;
+}
+
+#quiz-result-actions{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

@@ -1,0 +1,36 @@
+#header-wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+}
+
+#header-logo-link{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color:#000;
+  flex-direction: row;
+}
+
+.header-logo{
+  width: 30px;
+}
+
+.header-logo-text{
+  font-family: 'Licorice', cursive;
+  margin-left:2%;
+  font-size:1.5rem;
+}
+
+.header-title{
+  font-family: 'Licorice', cursive;
+  font-size: 5rem;
+  margin: 1%;
+}
+
+
+#btn-logout{
+  height: 10%;
+}

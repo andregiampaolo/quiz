@@ -1,0 +1,18 @@
+#wrapper-logo{
+  margin-top: 5%;
+}
+
+.logo{
+  width: 10%;
+}
+
+.logo-link{
+  text-decoration: none;
+}
+
+.logo-text{
+  font-family: 'Licorice', cursive;
+  font-size: 5rem;
+  margin: 1%;
+  color: #000;
+}
