@@ -24,7 +24,7 @@ const LoginPage = () => {
     <div id="login-page">
       <Logo />
       <h1 className="title text-center">Login</h1>
-      {(invalidUser) ? <div className="text-center form-error">Icorrect user or password</div> : ''}
+      {(invalidUser) ? <div className="text-center form-error">Incorrect user or password</div> : ''}
       <form className="form content-center" action="form" onSubmit={handleSubmit} >
         <div className="field">
           <label htmlFor="username">username</label>
