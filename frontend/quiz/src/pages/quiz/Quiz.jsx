@@ -34,7 +34,7 @@ const QuizPage = (props) => {
   }
 
   if (!isFormValid) {
-    valitedDiv = (<div className="form-error">Responda todas as questões</div>);
+    valitedDiv = (<div className="form-error">Answer all question</div>);
   }
 
   const handleChange = (e) => {
